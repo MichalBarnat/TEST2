@@ -1,4 +1,4 @@
-package secondTry;
+package secondtry;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -50,7 +50,7 @@ public class Main {
             System.out.print(noworodek.getImie()+" "+noworodek.getDataUrodzenia()+" ");
         }
 
-        //5 ZLE !
+        //5
         Set<LocalDate> datyBlizniat = Noworodek.datyUrodzeniaBlizniat();
         System.out.println("Daty urodzenia blizniat: ");
         for (LocalDate localDate : datyBlizniat) {

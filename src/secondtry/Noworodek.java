@@ -1,4 +1,4 @@
-package secondTry;
+package secondtry;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -126,7 +126,7 @@ public class Noworodek {
         for (Noworodek noworodek : list) {
             for (Noworodek noworodek1 : list) {
                 if(noworodek != noworodek1
-                        && noworodek.getMatka().getId() == noworodek.getMatka().getId()
+                        && noworodek.getMatka().getId() == noworodek1.getMatka().getId()
                         && noworodek.getDataUrodzenia().isEqual(noworodek1.getDataUrodzenia())
                 ) {
                     result.add(noworodek);

@@ -1,4 +1,4 @@
-package secondTry;
+package secondtry;
 
 import java.io.*;
 import java.util.ArrayList;
